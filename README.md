@@ -1,4 +1,4 @@
-# angular-15-signup-verification-boilerplate
+# angular-15-signup-verification-using-MongoDB (MEAN)
 
 Based on implementation found on JasonWatmore website
 
