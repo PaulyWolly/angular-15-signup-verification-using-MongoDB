@@ -9,5 +9,6 @@ Now run the Angular app on the root with 'npm start'
 
 # Setup
 1. Run 'npm install' to install dependencies in both 'server' and 'root' folders
-3. Make sure to configure your MongoDB connection through Compass and update the app.js file.
-2. Run 'nodemon' to run the Node/Express server on port 4000
+2. Make sure to configure your MongoDB connection through Compass and update the app.js file.
+3. Run 'nodemon' to run the Node/Express server on port 4000
+4. Run 'npm start' in the root folder to run the Angular app
