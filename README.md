@@ -9,3 +9,5 @@ Documentation at https://jasonwatmore.com/angular-15-auth-boilerplate-sign-up-wi
 Companion (Front-end) to MongoDB, Express, Node (MEN) backend:
 https://github.com/cornflourblue/node-mongo-signup-verification-api
 
+Need to configure MongoDB through Compasss, then run 'nodemon' in server folder.
+Now run the Angular app on the root 'npm start'
