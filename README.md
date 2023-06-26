@@ -12,4 +12,4 @@ https://github.com/cornflourblue/node-mongo-signup-verification-api
 # Notes
 Need to configure MongoDB through Compasss, then run 'nodemon' in server folder.
 
-Now run the Angular app on the root 'npm start'
+Now run the Angular app on the root with 'npm start'
