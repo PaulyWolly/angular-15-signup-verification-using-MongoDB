@@ -14,13 +14,21 @@ import { AlertComponent } from './_components';
 import { HomeComponent } from './home';
 import { FooterComponent } from './footer/footer.component';
 
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+// import { AdminModule } from './admin/admin.module';
+
 
 @NgModule({
     imports: [
         BrowserModule,
         ReactiveFormsModule,
         HttpClientModule,
-        AppRoutingModule
+        AppRoutingModule,
+        MatIconModule,
+        MatButtonModule,
+        BrowserAnimationsModule
     ],
     declarations: [
         AppComponent,

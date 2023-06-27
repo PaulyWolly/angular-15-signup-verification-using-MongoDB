@@ -19,3 +19,13 @@
 .bullet-style {
   padding-left: 20px;
 }
+
+.mat-mdc-icon-button {
+  position: relative;
+  left: 110px;
+}
+
+button.edit-icon {
+  position: relative;
+  left: 120px;
+}

@@ -37,12 +37,24 @@
               <td class="align-middle">{{account.email}}</td>
               <td class="align-middle">{{account.role}}</td>
               <td style="white-space: nowrap">
-                  <a routerLink="edit/{{account.id}}" class="btn btn-sm btn-primary me-1">Edit</a>
+                <button
+                  mat-icon-button
+                  class="edit-icon"
+                  color="primary"
+                  routerLink="edit/{{account.id}}">
+                  <mat-icon>edit</mat-icon>
+                </button>
+                <button
+                  mat-icon-button
+                  color="warn"
+                  class="delete-icon"
+                  (click)="onDelete(account.id, account.firstName, account.lastName)"
+                  [disabled]="account.isDeleting"
+                  routerLink="delete/{{account.id}}">
+                  <span *ngIf="account.isDeleting" class="spinner-border spinner-border-sm"></span>
+                  <span *ngIf="!account.isDeleting"><mat-icon>delete</mat-icon></span>
+                </button>
 
-                  <button (click)="deleteAccount(account.id)" class="btn btn-sm btn-danger btn-delete-account" [disabled]="account.isDeleting">
-                      <span *ngIf="account.isDeleting" class="spinner-border spinner-border-sm"></span>
-                      <span *ngIf="!account.isDeleting">Delete</span>
-                  </button>
               </td>
           </tr>
           <tr *ngIf="!accounts">
