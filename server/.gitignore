@@ -43,3 +43,4 @@ typings
 
 # DB configuration
 server/config
+server/backend
