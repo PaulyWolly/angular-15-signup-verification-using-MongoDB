@@ -42,5 +42,5 @@ typings
 .node_repl_history
 
 # DB configuration
-server/config
-server/backend
+./config
+./backend
