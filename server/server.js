@@ -6,6 +6,10 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const errorHandler = require('_middleware/error-handler');
 
+// get DB name from config.json
+const config = require('config.json');
+const DBName = config.DBName;
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser());
@@ -40,4 +44,5 @@ app.use(errorHandler);
 const port = process.env.NODE_ENV === 'production' ? (process.env.PORT || 80) : 4000;
 app.listen(port, () => {
     console.log('Server listening on port ' + port);
+    console.log("Connected to DB:", DBName + " " + 'via Compass')
 });

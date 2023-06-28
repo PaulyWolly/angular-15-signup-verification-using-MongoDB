@@ -39,7 +39,7 @@
               <td style="white-space: nowrap">
                 <button
                   mat-icon-button
-                  class="edit-icon"
+                  class="edit-icon edit-color"
                   color="primary"
                   routerLink="edit/{{account.id}}">
                   <mat-icon>edit</mat-icon>
@@ -47,7 +47,7 @@
                 <button
                   mat-icon-button
                   color="warn"
-                  class="delete-icon"
+                  class="delete-icon delete-color"
                   (click)="onDelete(account.id, account.firstName, account.lastName)"
                   [disabled]="account.isDeleting"
                   routerLink="delete/{{account.id}}">

@@ -20,9 +20,9 @@ export class ListComponent implements OnInit {
     ) { }
 
     ngOnInit() {
-        this.accountService.getAll()
-            .pipe(first())
-            .subscribe(accounts => this.accounts = accounts);
+      this.accountService.getAll()
+        .pipe(first())
+        .subscribe(accounts => this.accounts = accounts);
     }
 
     onDelete(id: any, firstName: string, lastName: string) {
@@ -41,10 +41,10 @@ export class ListComponent implements OnInit {
       const account = this.accounts!.find(x => x.id === id);
       account.isDeleting = true;
       this.accountService.delete(id)
-          .pipe(first())
-          .subscribe(() => {
-              this.accounts = this.accounts!.filter(x => x.id !== id)
-          });
+        .pipe(first())
+        .subscribe(() => {
+            this.accounts = this.accounts!.filter(x => x.id !== id)
+        });
     }
 }
 

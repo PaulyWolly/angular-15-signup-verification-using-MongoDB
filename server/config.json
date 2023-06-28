@@ -1,13 +1,14 @@
 ﻿{
-    "connectionString": "mongodb+srv://mongotut:testing123@cluster0.k82k8qn.mongodb.net/node-mongo-signup-verification-api",
-    "secret": "aed7d43fd2218f2050b0d45b8e7417d286b78c7747528740c86525419c721f096de7a42acdd53c430ca5f5182ec69eaaa462587601bc4069b0894e7cc6543753",
-    "emailFrom": "pwelby@gmail.com",
-    "smtpOptions": {
-        "host": "smtp.gmail.com",
-        "port": 587,
-        "auth": {
-            "user": "pwelby@gmail.com",
-            "pass": "bgyk fkot lpdu neuc"
-        }
+  "DBName": "node-mongo-signup-verification-api",
+  "connectionString": "mongodb+srv://mongotut:testing123@cluster0.k82k8qn.mongodb.net/node-mongo-signup-verification-api",
+  "secret": "aed7d43fd2218f2050b0d45b8e7417d286b78c7747528740c86525419c721f096de7a42acdd53c430ca5f5182ec69eaaa462587601bc4069b0894e7cc6543753",
+  "emailFrom": "pwelby@gmail.com",
+  "smtpOptions": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "auth": {
+        "user": "pwelby@gmail.com",
+        "pass": "bgyk fkot lpdu neuc"
     }
+  }
 }

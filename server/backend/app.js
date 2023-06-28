@@ -12,7 +12,7 @@ mongoose
   .connect(
 
     // Your DB connection string goes here
-    // "mongodb+srv://pwelby:QYWCPFaCqrVdfClX@cluster0.wjcpfac.mongodb.net/MEAN-APP2?retryWrites=true&w=majority"
+
     "mongodb+srv://allAccess:AaBbCcXxYyZz12345@cluster0.k82k8qn.mongodb.net/node-mongo-signup-verification-api?retryWrites=true&w=majority"
   )
   // .then((x) => {
