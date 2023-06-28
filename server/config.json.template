@@ -1,5 +1,5 @@
 {
-  "DBName": "<database name></database>",
+  "DBName": "<database name>",
   "connectionString": "<connection string>",
   "secret": "<secret string>",
   "emailFrom": "<email from>",
