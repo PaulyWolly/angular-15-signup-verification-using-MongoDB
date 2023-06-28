@@ -46,3 +46,4 @@ typings
 ./backend
 server/backend
 server/config
+config.json
