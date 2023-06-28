@@ -1,0 +1,14 @@
+{
+  "DBName": "<database name></database>",
+  "connectionString": "<connection string>",
+  "secret": "<secret string>",
+  "emailFrom": "<email from>",
+  "smtpOptions": {
+    "host": "<smpt server address>",
+    "port": 587,
+    "auth": {
+        "user": "<email address>",
+        "pass": "<email password>"
+    }
+  }
+}
