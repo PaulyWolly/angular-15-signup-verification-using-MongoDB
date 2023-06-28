@@ -1,4 +1,5 @@
 {
+  "Instructions": "This file needs to be in the 'server' folder without the 'template' extension (config.json)",
   "DBName": "<database name>",
   "connectionString": "<connection string>",
   "secret": "<secret string>",
