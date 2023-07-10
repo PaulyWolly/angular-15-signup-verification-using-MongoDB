@@ -4,9 +4,10 @@
 
 export const environment = {
     production: false,
-    apiUrl: 'http://localhost:4000',
-    MongoDB_connection_string: '"mongodb+srv://allAccess:AaBbCcXxYyZz12345@cluster0.k82k8qn.mongodb.net/node-mongo-signup-verification-api?retryWrites=true&w=majority"'
-};
+    // apiUrl: 'http://localhost:4000',
+    // MongoDB_connection_string: '"mongodb+srv://allAccess:AaBbCcXxYyZz12345@cluster0.k82k8qn.mongodb.net/node-mongo-signup-verification-api?retryWrites=true&w=majority"'
+    apiUrl: 'https://angular15-signup-verify-backend.onrender.com'
+  };
 
 /*
  * For easier debugging in development mode, you can import the following file

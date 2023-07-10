@@ -12,3 +12,4 @@ Now run the Angular app on the root with 'npm start'
 2. Make sure to configure your MongoDB connection through Compass and update the app.js file.
 3. Run 'nodemon' to run the Node/Express server on port 4000
 4. Run 'npm start' in the root folder to run the Angular app
+# angular15-signup-verify-mongodb-frontend
